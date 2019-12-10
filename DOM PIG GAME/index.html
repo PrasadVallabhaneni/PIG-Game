@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PIG GAME</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+        <div class="player-name" id="name-0">Player1</div>
+        <div class="player-score" id="score-0">0</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="Current-0">10</div>
+        </div>
+      </div>
+
+      <div class="player-1-panel ">
+        <div class="player-name " id="name-1">Player2</div>
+        <div class="player-score" id="score-1">0</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="Current-1">50</div>
+        </div>
+      </div>
+
+      <button class="button-new">
+        <i class="ion-ios-plus-outline"></i>New Game
+      </button>
+      <button class="button-roll">
+        <i class="ion-ios-loop"></i><img src="images/images.png" alt="" /> ROLL
+        DICE
+      </button>
+
+      <button class="button-hold">
+        <i class="ion-ios-download-outline"></i>Hold
+      </button>
+      <input type="text" placeholder="Final Score" class="final-score" />
+    </div>
+    <img src="images/dice1.png" class="dice" alt="Dice" />
+
+    <script src="app.js"></script>
+  </body>
+</html>
